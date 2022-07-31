@@ -1,0 +1,30 @@
+select {
+    color: white;
+    height: 50px;
+    width: 44%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 20%) 2px 2px 1em;
+    outline: 0px;
+    font-size: 14px;
+    background-color: #343d46;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+
+.informacao {
+    background-color: #343d46;
+    color: #fff;
+    height: 20rem;
+    width: 450px;
+    margin-left: 12%;
+}
+
+.container {
+    display: flex;
+    padding-top: 2%;
+}
+
+img {
+    margin-left: 10%;
+}

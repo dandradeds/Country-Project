@@ -1,0 +1,19 @@
+.Cabecalho {
+    background-color: #343d46;
+    display: flex;
+    justify-content: left;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    height: 90px;
+    justify-content: space-between;
+    border-radius: 1px;
+}
+
+.Cabecalho h1 {
+    color: #Fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-left: 12%;
+}
