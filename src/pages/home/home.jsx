@@ -34,13 +34,13 @@ function Home() {
     const {data, loading, error} = useQuery(LIST_COUNTRIES, {client});
     const [flag, setFlag] = useState('');
     const [loader, setLoader] = useState(false)
-    
+
 
     useEffect(() => {
         getFlags()
     },[country])
 
-    console.log(data)
+    
     if (loading || error) {
       return <p>{error ? error.message : 'Loading...'}</p>;
     } 
