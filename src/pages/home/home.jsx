@@ -82,7 +82,7 @@ function Home() {
             <h3>Capital: {result.capital}</h3>
             <h3>Emoji: {result.emoji}</h3>
             <h3>Moeda: {result.currency}</h3>
-            <h3>{result.languages[0].name}</h3>
+            <h3>Idioma: {result.languages[0].name}</h3>
             
         </div>
         <div>
